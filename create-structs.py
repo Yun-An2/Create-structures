@@ -99,7 +99,7 @@ def main():
 
     # Get list of distances (z coords.)
     zvalues = np.arange(cmd_line_args.d_min,
-                        cmd_line_args.d_max + cmd_line_args.d_step/2,
+                        cmd_line_args.d_max + cmd_line_args.d_step,
                         cmd_line_args.d_step)
 
     #################
